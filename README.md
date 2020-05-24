@@ -45,7 +45,7 @@
 | --- | --- | --- |
 |`#a2b1a8` |`#d79bc1` |`#bea7b4`|
 
-|![#b7ad8a](http://via.placeholder.com/50/b7ad8a/000000?text=+)![#c8a86d](http://via.placeholder.com/50/c8a86d/000000?text=+)|![#5bc08e](http://via.placeholder.com/50/5bc08e/000000?text=+)|
+|![#b7ad8a](http://via.placeholder.com/50/b7ad8a/000000?text=+)|![#c8a86d](http://via.placeholder.com/50/c8a86d/000000?text=+)|![#5bc08e](http://via.placeholder.com/50/5bc08e/000000?text=+)|
 | --- | --- | --- |
 |`#c8a86d` |`#b7ad8a` |`#5bc08e`|
 
