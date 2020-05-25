@@ -21,13 +21,9 @@ def makeRow(i)
     i += 1
   end
   @formatted_text << "|\n"
-  9.times do 
-    @formatted_text << "| --- "
-  end
-  @formatted_text << "|\n"
   i = @iterator
   9.times do
-    @formatted_text << "|'##{@lines[i]}'"
+    @formatted_text << "|##{@lines[i]}"
     i += 1
   end
   @formatted_text << "|\n"
@@ -36,7 +32,6 @@ end
 
 5.times do
   makeRow(@iterator)
-  @formatted_text << "\n"
 end
 
 @formatted_text << "\n---"
