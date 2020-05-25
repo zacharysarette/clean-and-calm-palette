@@ -3,18 +3,42 @@
 hash_file = ARGV.first
 readme_file = ARGV.last
 
-formatted_text = "# Clean and Calm Palette :art:"
-formatted_text <<  "\n\n> a simple 45 color palette made more readable for the web"
-formatted_text << "\n\n---" 
+@formatted_text = "# Clean and Calm Palette :art:"
+@formatted_text <<  "\n\n> a simple 45 color palette made more readable for the web"
+@formatted_text << "\n\n---" 
+@lines = []
 
 File.open(hash_file).each do |line|
   formatted_line = line.gsub!(/[^0-9A-Za-z]/, '')
-  formatted_text <<  "\n|![#{formatted_line}](http://via.placeholder.com/50/#{formatted_line}/000000?text=+)|"
-  formatted_text << "\n| --- |"
-  formatted_text << "\n|'#{formatted_line}'|"
+  @lines.push(formatted_line)
 end
 
-formatted_text << "\n---"
+@iterator = 0
 
-File.open(readme_file, "w") << formatted_text
+def makeRow(i)
+  9.times do 
+    @formatted_text <<  "|![#{@lines[i]}](http://via.placeholder.com/50/#{@lines[i]}/000000?text=+)"
+    i += 1
+  end
+  @formatted_text << "|\n"
+  9.times do 
+    @formatted_text << "| --- "
+  end
+  @formatted_text << "|\n"
+  i = @iterator
+  9.times do
+    @formatted_text << "|'#{@lines[i]}'"
+    i += 1
+  end
+  @formatted_text << "|\n"
+  @iterator = i
+end
+
+5.times do
+  makeRow(@iterator)
+end
+
+@formatted_text << "\n---"
+
+File.open(readme_file, "w") << @formatted_text
 
