@@ -27,7 +27,7 @@ def makeRow(i)
   @formatted_text << "|\n"
   i = @iterator
   9.times do
-    @formatted_text << "|'#{@lines[i]}'"
+    @formatted_text << "|'##{@lines[i]}'"
     i += 1
   end
   @formatted_text << "|\n"
@@ -42,4 +42,6 @@ end
 @formatted_text << "\n---"
 
 File.open(readme_file, "w") << @formatted_text
+
+puts "File #{readme_file} successfully written."
 
