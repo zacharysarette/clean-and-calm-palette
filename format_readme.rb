@@ -5,7 +5,7 @@ readme_file = ARGV.last
 
 @formatted_text = "# Clean and Calm Palette :art:"
 @formatted_text <<  "\n\n> a simple 45 color palette made more readable for the web"
-@formatted_text << "\n\n---" 
+@formatted_text << "\n\n---\n" 
 @lines = []
 
 File.open(hash_file).each do |line|
@@ -36,6 +36,7 @@ end
 
 5.times do
   makeRow(@iterator)
+  @formatted_text << "\n"
 end
 
 @formatted_text << "\n---"
