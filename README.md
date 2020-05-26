@@ -16,3 +16,12 @@
 |#b5d5c1|#e4c5d7|#cdcecc|#d7cf94|#c8d2a9|#7de2ad|#9bdcb7|#7ddcf6|#9ed9db|
 
 ---
+
+# Todo
+
+--- 
+
+- Make script for generating JS const file
+- Make script for generating css file
+
+---

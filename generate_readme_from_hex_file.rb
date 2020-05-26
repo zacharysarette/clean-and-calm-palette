@@ -39,7 +39,7 @@ end
   makeRow(@iterator)
 end
 
-@formatted_text << "\n---"
+@formatted_text << "\n---\n"
 
 File.open(readme_file, "w") << @formatted_text
 
