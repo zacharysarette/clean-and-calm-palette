@@ -15,13 +15,18 @@
 |![b5d5c1](http://via.placeholder.com/50/b5d5c1/000000?text=+)|![e4c5d7](http://via.placeholder.com/50/e4c5d7/000000?text=+)|![cdcecc](http://via.placeholder.com/50/cdcecc/000000?text=+)|![d7cf94](http://via.placeholder.com/50/d7cf94/000000?text=+)|![c8d2a9](http://via.placeholder.com/50/c8d2a9/000000?text=+)|![7de2ad](http://via.placeholder.com/50/7de2ad/000000?text=+)|![9bdcb7](http://via.placeholder.com/50/9bdcb7/000000?text=+)|![7ddcf6](http://via.placeholder.com/50/7ddcf6/000000?text=+)|![9ed9db](http://via.placeholder.com/50/9ed9db/000000?text=+)|
 |#b5d5c1|#e4c5d7|#cdcecc|#d7cf94|#c8d2a9|#7de2ad|#9bdcb7|#7ddcf6|#9ed9db|
 
----
-
 # Todo
 
 --- 
 
-- Make script for generating JS const file
 - Make script for generating css file
+
+---
+
+# Done
+
+---
+
+- Make script for generating JS const file
 
 ---

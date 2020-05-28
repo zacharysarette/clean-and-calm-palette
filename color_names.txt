@@ -1,0 +1,45 @@
+#6c4954  pistacio dark 
+#893364  rose dark
+#7b405c  lip dark
+#7f412d  honey dark
+#764540  sand dark
+#4a5743  emerald dark
+#5c514c  oribe dark
+#4c517b  river dark
+#5e4d67  rain dark
+#7d6b70  pistacio dim
+#a75286  rose dim
+#93607b  lip dim
+#9a623a  honey dim
+#8e6655  sand dim
+#477b59  emerald dim
+#657465  oribe dim
+#4674a6  river dim
+#68708b  rain dim
+#8e8e8e  pistacio
+#c671ab  rose
+#ac829c  lip
+#b68347  honey
+#a5896b  sand
+#37a071  emerald
+#6b987f  oribe
+#2998d4  river
+#6d93b1  rain
+#a2b1a8  pistacio light
+#d79bc1  rose light
+#bea7b4  lip light
+#c8a86d  honey light
+#b7ad8a  sand light
+#5bc08e  emerald light
+#83b99b  oribe light
+#57b9e6  river light
+#85b5c6  rain light
+#b5d5c1  pistacio faint
+#e4c5d7  rose faint
+#cdcecc  lip faint
+#d7cf94  honey faint
+#c8d2a9  sand faint
+#7de2ad  emerald faint
+#9bdcb7  oribe faint
+#7ddcf6  river faint
+#9ed9db  rain faint
