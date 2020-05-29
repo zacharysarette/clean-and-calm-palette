@@ -1,0 +1,28 @@
+{
+  "name": "clean-and-calm-palette",
+  "version": "1.0.3",
+  "description": "A simple 45 color palette made readable for the web",
+  "keywords": [
+    "color",
+    "colors",
+    "colour",
+    "colours",
+    "palette",
+    "color palette",
+    "colour palette",
+    "readable",
+    "web",
+    "LHC",
+    "accessible",
+    "accessibility",
+    "calm",
+    "clean"
+  ],
+  "main": "index.js",
+  "author": "Zachary William Sarette",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharysarette/clean-and-calm-palette"
+  }
+}

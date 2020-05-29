@@ -3,6 +3,7 @@
 --- 
 
 - Make script for generating css file
+- Use webpack to compile JavaScript modules
 
 ---
 
@@ -11,5 +12,6 @@
 ---
 
 - Make script for generating JS const file
+- Create NPM package
 
 ---

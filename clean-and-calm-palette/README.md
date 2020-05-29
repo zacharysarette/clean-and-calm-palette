@@ -7,10 +7,7 @@
 * [Colors](#colors)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Todo](#todo)
-* [Done](#done)
 ---
-
 ## Colors
 
 |![6c4954](http://via.placeholder.com/50/6c4954/000000?text=+)|![893364](http://via.placeholder.com/50/893364/000000?text=+)|![7b405c](http://via.placeholder.com/50/7b405c/000000?text=+)|![7f412d](http://via.placeholder.com/50/7f412d/000000?text=+)|![764540](http://via.placeholder.com/50/764540/000000?text=+)|![4a5743](http://via.placeholder.com/50/4a5743/000000?text=+)|![5c514c](http://via.placeholder.com/50/5c514c/000000?text=+)|![4c517b](http://via.placeholder.com/50/4c517b/000000?text=+)|![5e4d67](http://via.placeholder.com/50/5e4d67/000000?text=+)|
@@ -43,23 +40,3 @@ npm install clean-and-calm-palette
 import cleanAndCalmColors from 'clean-and-calm-palette'
 console.log(cleanAndCalmColors.river) // '#2998d4'
 ```
-
---- 
-
-## Todo
-
---- 
-
-- Make script for generating css file
-- Use webpack to compile JavaScript modules
-
----
-
-## Done
-
----
-
-- Make script for generating JS const file
-- Create NPM package
-
----

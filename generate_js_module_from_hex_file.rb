@@ -1,10 +1,9 @@
 ﻿#!/urs/bin/env ruby
 
+require './color_bases_and_values.rb'
+
 hash_file = ARGV.first
 js_const_file = ARGV.last
-
-@color_bases = ["pistacio", "rose", "lip", "honey", "sand", "emerald", "oribe", "river", "rain"]
-@color_values = ["_dark", "_dim", "", "_light", "_faint"]
 
 @lines = []
 
@@ -18,14 +17,14 @@ end
 @iterator = 0
 
 def makeRow(i, color_value)
-  @color_bases.each do | color_base |
+  ColorBasesAndValues::COLOR_BASES.each do | color_base |
     @formatted_text <<  "  #{color_base}#{color_value}: '##{@lines[i]}',\n"
     i += 1
   end
   @iterator = i
 end
 
-@color_values.each do |color_value|
+ColorBasesAndValues::COLOR_VALUES.each do |color_value|
   makeRow(@iterator, color_value)
 end
 
